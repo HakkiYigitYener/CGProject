@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/CGProject/pathtracer/CMakeLists.txt
+C:/CGProject/external/embree2/embree-config-version.cmake
+C:/CGProject/external/embree2/embree-config.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindOpenMP.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/CGProject/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+C:/CGProject/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+C:/CGProject/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+C:/CGProject/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+C:/CGProject/VSUserTemplate.user

@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/CGProject/labhelper/CMakeLists.txt
+C:/CGProject/external/sdl2/sdl2-config-version.cmake
+C:/CGProject/external/sdl2/sdl2-config.cmake
+C:/CGProject/external/glm/glm-config-version.cmake
+C:/CGProject/external/glm/glm-config.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindGLEW.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake

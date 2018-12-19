@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\CGProject\lab6-shadowmaps\lab6_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\CGProject\lab6-shadowmaps\hdr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\CGProject\lab6-shadowmaps\fbo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\CGProject\lab6-shadowmaps\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\CGProject\lab6-shadowmaps\background.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\CGProject\lab6-shadowmaps\shading.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\CGProject\lab6-shadowmaps\simple.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\CGProject\lab6-shadowmaps\background.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\CGProject\lab6-shadowmaps\shading.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\CGProject\lab6-shadowmaps\simple.frag">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{66087D21-36CC-37AB-B431-A7E7A2D817A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6F27EA26-8CF8-399C-ADD5-A7E6EED7E679}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
