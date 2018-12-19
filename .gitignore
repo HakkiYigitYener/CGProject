@@ -35,3 +35,6 @@
 *.log
 *.pdb
 build/.vs/computer-graphics-labs/v15/.suo
+*.ipch
+build/.vs/computer-graphics-labs/v15/.suo
+*.ilk
