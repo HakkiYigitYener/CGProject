@@ -389,45 +389,22 @@ void display(void)
 	debugDrawLight(viewMatrix, projMatrix, vec3(lightPosition));
 	renderParticles(viewMatrix, projMatrix);
 
-	/////////////////////////////////////////////////////////////////////////////
-	//// Draw particles
-	/////////////////////////////////////////////////////////////////////////////
-
-	//while (particleSystem.max_size > particleSystem.particles.size())
-	//{
-	//	Particle particle = Particle();
-
-	//	const float theta = labhelper::uniform_randf(0.f, 2.f * M_PI);
-	//	const float u = labhelper::uniform_randf(-1.f, 1.f);
-	//	glm::vec3 pos = glm::vec3(sqrt(1.f - u * u) * cosf(theta), u, sqrt(1.f - u * u) * sinf(theta));
-	//	particle.pos = pos;
-
-	//	particle.life_length = labhelper::uniform_randf(2.f, 4.f);
-
-	//	particleSystem.spawn(particle);
-	//}
-
-	//unsigned int active_particles = particleSystem.particles.size();
-	///* Code for extracting data goes here */
-	//// sort particles with sort from c++ standard library
-	////std::sort(data.begin(), std::next(data.begin(), active_particles),
-	////	[](const vec4 &lhs, const vec4 &rhs) { return lhs.z < rhs.z; });
-	//particleSystem.process_particles(deltaTime);
-
 }
 
 void handleShipMovement(const uint8_t *state) {
-	float speed = 0.7f;
+	float speed = 1.4f;
 
 	if (state[SDL_SCANCODE_UP]) {
 		T[3] -= speed * R[0];
 		spawnParticles();
 	}
 	if (state[SDL_SCANCODE_LEFT]) {
-		R[0] -= 0.03f * R[2];
+		R[0] -= 0.05f * R[2];
+		spawnParticles();
 	}
 	if (state[SDL_SCANCODE_RIGHT]) {
-		R[0] += 0.03f * R[2];
+		R[0] += 0.05f * R[2];
+		spawnParticles();
 	}
 
 	// Make R orthonormal again
